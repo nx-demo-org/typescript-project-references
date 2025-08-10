@@ -2,9 +2,14 @@
   "name": "@reference-org/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "ci-typecheck": "npx nx run-many -t typecheck --no-dte"
+  },
+  "nx": {},
   "private": true,
   "dependencies": {
+    "@nx/devkit": "21.3.11",
+    "@nx/plugin": "^21.3.11",
     "next": "~15.2.4",
     "react": "19.0.0",
     "react-dom": "19.0.0",
@@ -27,6 +32,7 @@
     "@swc/cli": "~0.6.0",
     "@swc/core": "~1.5.7",
     "@swc/helpers": "~0.5.11",
+    "@swc/jest": "~0.2.38",
     "@swc/plugin-styled-components": "^1.5.67",
     "@testing-library/dom": "10.4.0",
     "@testing-library/react": "16.1.0",
@@ -49,7 +55,9 @@
     "eslint-plugin-react-hooks": "5.0.0",
     "jest": "^30.0.2",
     "jest-environment-jsdom": "^30.0.2",
+    "jest-environment-node": "^30.0.2",
     "jest-util": "^30.0.2",
+    "jsonc-eslint-parser": "^2.1.0",
     "nx": "21.3.11",
     "prettier": "^2.6.2",
     "ts-jest": "^29.4.0",

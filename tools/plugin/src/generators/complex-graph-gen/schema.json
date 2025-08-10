@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/schema",
+  "$id": "ComplexGraphGen",
+  "title": "",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "The prefix for the library name.",
+      "$default": {
+        "$source": "argv",
+        "index": 0
+      },
+      "x-prompt": "What name prefix would you like to use for the libraries?"
+    },
+        "count": {
+      "type": "number",
+      "description": "The number of libraries to generate.",
+      "x-prompt": "How many libraries should be generated?"
+    }
+  },
+  "required": ["name", "count"]
+}
