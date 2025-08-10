@@ -21,9 +21,7 @@
     {
       "plugin": "@nx/js/typescript",
       "options": {
-        "typecheck": {
-          "targetName": "typecheck"
-        },
+        "typecheck": { "targetName": "typecheck" },
         "build": {
           "targetName": "build",
           "configName": "tsconfig.lib.json",
@@ -52,30 +50,14 @@
         "ciTargetName": "e2e-ci"
       }
     },
-    {
-      "plugin": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    },
-    {
-      "plugin": "@nx/jest/plugin",
-      "options": {
-        "targetName": "test"
-      }
-    }
+    { "plugin": "@nx/eslint/plugin", "options": { "targetName": "lint" } },
+    { "plugin": "@nx/jest/plugin", "options": { "targetName": "test" } }
   ],
-  "targetDefaults": {
-    "test": {
-      "dependsOn": ["^build"]
-    }
-  },
+  "targetDefaults": { "test": { "dependsOn": ["^build"] } },
   "generators": {
     "@nx/next": {
-      "application": {
-        "style": "styled-components",
-        "linter": "eslint"
-      }
+      "application": { "style": "styled-components", "linter": "eslint" }
     }
-  }
+  },
+  "nxCloudId": "689928e7e7d4ba1786546dd8"
 }
