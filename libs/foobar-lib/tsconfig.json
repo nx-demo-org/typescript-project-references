@@ -1,0 +1,22 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "../foobar4-lib"
+    },
+    {
+      "path": "../foobar3-lib"
+    },
+    {
+      "path": "../foobar2-lib"
+    },
+    {
+      "path": "../foobar1-lib"
+    },
+    {
+      "path": "./tsconfig.lib.json"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@reference-org/foobar-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@reference-org/foobar"
+    ]
+  }
+}
