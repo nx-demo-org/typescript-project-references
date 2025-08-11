@@ -76,9 +76,7 @@
       "inputs": ["production", "^production"]
     },
     "typecheck": {
-      "command": "tsc --noEmit -p tsconfig.lib.json",
-      "dependsOn": ["^build"],
-      "outputs": []
+      "command": "tsc --build --emitDeclarationOnly --verbose"
     }
   },
   "generators": {
