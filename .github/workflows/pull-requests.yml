@@ -16,6 +16,9 @@ jobs:
     env:
       NX_CLOUD_ACCESS_TOKEN: ${{ secrets.NX_CLOUD_ACCESS_TOKEN }}
       NX_BATCH_MODE: true
+      NX_VERBOSE_LOGGING: true
+      NX_PERF_LOGGING: true
+      NX_CLOUD_DEBUG_URLS: true
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -36,7 +39,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Start Nx Cloud Run
-        run: npx nx start-ci-run --distribute-on="5 linux-medium-js" --stop-agents-after=lint,test,typecheck
+        run: npx nx start-ci-run --distribute-on="3 linux-medium-js" --stop-agents-after=test,lint,typecheck
       
 
       - name: Install dependencies
@@ -44,4 +47,4 @@ jobs:
 
       # Prepend any command with "nx-cloud record --" to record its logs to Nx Cloud
       # - run: npx nx-cloud record -- echo Hello World
-      - run: npx nx run-many -t lint test typecheck
+      - run: npx nx run-many -t test lint typecheck
