@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "ci-typecheck": "npx nx run-many -t typecheck --no-dte"
+    "ci-typecheck": "npx nx run-many -t typecheck --parallel 8 --no-dte"
   },
   "nx": {},
   "private": true,

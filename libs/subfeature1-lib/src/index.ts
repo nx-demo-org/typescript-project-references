@@ -51,7 +51,6 @@ import { subfeature47Lib } from '@reference-org/subfeature47-lib';
 import { subfeature48Lib } from '@reference-org/subfeature48-lib';
 import { subfeature49Lib } from '@reference-org/subfeature49-lib';
 import { subfeature50Lib } from '@reference-org/subfeature50-lib';
-import { subfeature2Lib } from '@reference-org/subfeature2-lib';
 
 export function useDependencies() {
   console.log(subfeature2Lib());
@@ -103,6 +102,5 @@ export function useDependencies() {
   console.log(subfeature48Lib());
   console.log(subfeature49Lib());
   console.log(subfeature50Lib());
-  console.log(subfeature2Lib());
 }
 // --- End generated code ---

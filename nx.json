@@ -74,6 +74,11 @@
       "cache": true,
       "dependsOn": ["^build"],
       "inputs": ["production", "^production"]
+    },
+    "typecheck": {
+      "command": "tsc --noEmit -p tsconfig.lib.json",
+      "dependsOn": ["^build"],
+      "outputs": []
     }
   },
   "generators": {
@@ -84,6 +89,6 @@
       }
     }
   },
-  "bust": 1,
+  "bust": 6,
   "nxCloudId": "689928e7e7d4ba1786546dd8"
 }
