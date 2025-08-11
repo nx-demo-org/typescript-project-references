@@ -39,7 +39,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Start Nx Cloud Run
-        run: npx nx start-ci-run --distribute-on="3 linux-medium-js" --stop-agents-after=test,lint,typecheck
+        run: npx nx start-ci-run --distribute-on=".nx/workflows/assignment-rules.yaml" --stop-agents-after=lint,test,typecheck
       
 
       - name: Install dependencies
