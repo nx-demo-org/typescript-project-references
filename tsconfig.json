@@ -2,5 +2,1215 @@
   "extends": "./tsconfig.base.json",
   "compileOnSave": false,
   "files": [],
-  "references": [],
+  "references": [
+    {
+      "path": "./libs/foobar1-lib"
+    },
+    {
+      "path": "./libs/foobar2-lib"
+    },
+    {
+      "path": "./libs/foobar3-lib"
+    },
+    {
+      "path": "./libs/foobar4-lib"
+    },
+    {
+      "path": "./libs/foobar5-lib"
+    },
+    {
+      "path": "./libs/foobar6-lib"
+    },
+    {
+      "path": "./libs/foobar7-lib"
+    },
+    {
+      "path": "./libs/foobar8-lib"
+    },
+    {
+      "path": "./libs/foobar9-lib"
+    },
+    {
+      "path": "./libs/foobar10-lib"
+    },
+    {
+      "path": "./libs/foobar11-lib"
+    },
+    {
+      "path": "./libs/foobar12-lib"
+    },
+    {
+      "path": "./libs/foobar13-lib"
+    },
+    {
+      "path": "./libs/foobar14-lib"
+    },
+    {
+      "path": "./libs/foobar15-lib"
+    },
+    {
+      "path": "./libs/foobar16-lib"
+    },
+    {
+      "path": "./libs/foobar17-lib"
+    },
+    {
+      "path": "./libs/foobar18-lib"
+    },
+    {
+      "path": "./libs/foobar19-lib"
+    },
+    {
+      "path": "./libs/foobar20-lib"
+    },
+    {
+      "path": "./libs/foobar21-lib"
+    },
+    {
+      "path": "./libs/foobar22-lib"
+    },
+    {
+      "path": "./libs/foobar23-lib"
+    },
+    {
+      "path": "./libs/foobar24-lib"
+    },
+    {
+      "path": "./libs/foobar25-lib"
+    },
+    {
+      "path": "./libs/foobar26-lib"
+    },
+    {
+      "path": "./libs/foobar27-lib"
+    },
+    {
+      "path": "./libs/foobar28-lib"
+    },
+    {
+      "path": "./libs/foobar29-lib"
+    },
+    {
+      "path": "./libs/foobar30-lib"
+    },
+    {
+      "path": "./libs/foobar31-lib"
+    },
+    {
+      "path": "./libs/foobar32-lib"
+    },
+    {
+      "path": "./libs/foobar33-lib"
+    },
+    {
+      "path": "./libs/foobar34-lib"
+    },
+    {
+      "path": "./libs/foobar35-lib"
+    },
+    {
+      "path": "./libs/foobar36-lib"
+    },
+    {
+      "path": "./libs/foobar37-lib"
+    },
+    {
+      "path": "./libs/foobar38-lib"
+    },
+    {
+      "path": "./libs/foobar39-lib"
+    },
+    {
+      "path": "./libs/foobar40-lib"
+    },
+    {
+      "path": "./libs/foobar41-lib"
+    },
+    {
+      "path": "./libs/foobar42-lib"
+    },
+    {
+      "path": "./libs/foobar43-lib"
+    },
+    {
+      "path": "./libs/foobar44-lib"
+    },
+    {
+      "path": "./libs/foobar45-lib"
+    },
+    {
+      "path": "./libs/foobar46-lib"
+    },
+    {
+      "path": "./libs/foobar47-lib"
+    },
+    {
+      "path": "./libs/foobar48-lib"
+    },
+    {
+      "path": "./libs/foobar49-lib"
+    },
+    {
+      "path": "./libs/foobar50-lib"
+    },
+    {
+      "path": "./libs/foobar51-lib"
+    },
+    {
+      "path": "./libs/foobar52-lib"
+    },
+    {
+      "path": "./libs/foobar53-lib"
+    },
+    {
+      "path": "./libs/foobar54-lib"
+    },
+    {
+      "path": "./libs/foobar55-lib"
+    },
+    {
+      "path": "./libs/foobar56-lib"
+    },
+    {
+      "path": "./libs/foobar57-lib"
+    },
+    {
+      "path": "./libs/foobar58-lib"
+    },
+    {
+      "path": "./libs/foobar59-lib"
+    },
+    {
+      "path": "./libs/foobar60-lib"
+    },
+    {
+      "path": "./libs/foobar61-lib"
+    },
+    {
+      "path": "./libs/foobar62-lib"
+    },
+    {
+      "path": "./libs/foobar63-lib"
+    },
+    {
+      "path": "./libs/foobar64-lib"
+    },
+    {
+      "path": "./libs/foobar65-lib"
+    },
+    {
+      "path": "./libs/foobar66-lib"
+    },
+    {
+      "path": "./libs/foobar67-lib"
+    },
+    {
+      "path": "./libs/foobar68-lib"
+    },
+    {
+      "path": "./libs/foobar69-lib"
+    },
+    {
+      "path": "./libs/foobar70-lib"
+    },
+    {
+      "path": "./libs/foobar71-lib"
+    },
+    {
+      "path": "./libs/foobar72-lib"
+    },
+    {
+      "path": "./libs/foobar73-lib"
+    },
+    {
+      "path": "./libs/foobar74-lib"
+    },
+    {
+      "path": "./libs/foobar75-lib"
+    },
+    {
+      "path": "./libs/foobar76-lib"
+    },
+    {
+      "path": "./libs/foobar77-lib"
+    },
+    {
+      "path": "./libs/foobar78-lib"
+    },
+    {
+      "path": "./libs/foobar79-lib"
+    },
+    {
+      "path": "./libs/foobar80-lib"
+    },
+    {
+      "path": "./libs/foobar81-lib"
+    },
+    {
+      "path": "./libs/foobar82-lib"
+    },
+    {
+      "path": "./libs/foobar83-lib"
+    },
+    {
+      "path": "./libs/foobar84-lib"
+    },
+    {
+      "path": "./libs/foobar85-lib"
+    },
+    {
+      "path": "./libs/foobar86-lib"
+    },
+    {
+      "path": "./libs/foobar87-lib"
+    },
+    {
+      "path": "./libs/foobar88-lib"
+    },
+    {
+      "path": "./libs/foobar89-lib"
+    },
+    {
+      "path": "./libs/foobar90-lib"
+    },
+    {
+      "path": "./libs/foobar91-lib"
+    },
+    {
+      "path": "./libs/foobar92-lib"
+    },
+    {
+      "path": "./libs/foobar93-lib"
+    },
+    {
+      "path": "./libs/foobar94-lib"
+    },
+    {
+      "path": "./libs/foobar95-lib"
+    },
+    {
+      "path": "./libs/foobar96-lib"
+    },
+    {
+      "path": "./libs/foobar97-lib"
+    },
+    {
+      "path": "./libs/foobar98-lib"
+    },
+    {
+      "path": "./libs/foobar99-lib"
+    },
+    {
+      "path": "./libs/foobar100-lib"
+    },
+    {
+      "path": "./libs/foobar101-lib"
+    },
+    {
+      "path": "./libs/foobar102-lib"
+    },
+    {
+      "path": "./libs/foobar103-lib"
+    },
+    {
+      "path": "./libs/foobar104-lib"
+    },
+    {
+      "path": "./libs/foobar105-lib"
+    },
+    {
+      "path": "./libs/foobar106-lib"
+    },
+    {
+      "path": "./libs/foobar107-lib"
+    },
+    {
+      "path": "./libs/foobar108-lib"
+    },
+    {
+      "path": "./libs/foobar109-lib"
+    },
+    {
+      "path": "./libs/foobar110-lib"
+    },
+    {
+      "path": "./libs/foobar111-lib"
+    },
+    {
+      "path": "./libs/foobar112-lib"
+    },
+    {
+      "path": "./libs/foobar113-lib"
+    },
+    {
+      "path": "./libs/foobar114-lib"
+    },
+    {
+      "path": "./libs/foobar115-lib"
+    },
+    {
+      "path": "./libs/foobar116-lib"
+    },
+    {
+      "path": "./libs/foobar117-lib"
+    },
+    {
+      "path": "./libs/foobar118-lib"
+    },
+    {
+      "path": "./libs/foobar119-lib"
+    },
+    {
+      "path": "./libs/foobar120-lib"
+    },
+    {
+      "path": "./libs/foobar121-lib"
+    },
+    {
+      "path": "./libs/foobar122-lib"
+    },
+    {
+      "path": "./libs/foobar123-lib"
+    },
+    {
+      "path": "./libs/foobar124-lib"
+    },
+    {
+      "path": "./libs/foobar125-lib"
+    },
+    {
+      "path": "./libs/foobar126-lib"
+    },
+    {
+      "path": "./libs/foobar127-lib"
+    },
+    {
+      "path": "./libs/foobar128-lib"
+    },
+    {
+      "path": "./libs/foobar129-lib"
+    },
+    {
+      "path": "./libs/foobar130-lib"
+    },
+    {
+      "path": "./libs/foobar131-lib"
+    },
+    {
+      "path": "./libs/foobar132-lib"
+    },
+    {
+      "path": "./libs/foobar133-lib"
+    },
+    {
+      "path": "./libs/foobar134-lib"
+    },
+    {
+      "path": "./libs/foobar135-lib"
+    },
+    {
+      "path": "./libs/foobar136-lib"
+    },
+    {
+      "path": "./libs/foobar137-lib"
+    },
+    {
+      "path": "./libs/foobar138-lib"
+    },
+    {
+      "path": "./libs/foobar139-lib"
+    },
+    {
+      "path": "./libs/foobar140-lib"
+    },
+    {
+      "path": "./libs/foobar141-lib"
+    },
+    {
+      "path": "./libs/foobar142-lib"
+    },
+    {
+      "path": "./libs/foobar143-lib"
+    },
+    {
+      "path": "./libs/foobar144-lib"
+    },
+    {
+      "path": "./libs/foobar145-lib"
+    },
+    {
+      "path": "./libs/foobar146-lib"
+    },
+    {
+      "path": "./libs/foobar147-lib"
+    },
+    {
+      "path": "./libs/foobar148-lib"
+    },
+    {
+      "path": "./libs/foobar149-lib"
+    },
+    {
+      "path": "./libs/foobar150-lib"
+    },
+    {
+      "path": "./libs/foobar151-lib"
+    },
+    {
+      "path": "./libs/foobar152-lib"
+    },
+    {
+      "path": "./libs/foobar153-lib"
+    },
+    {
+      "path": "./libs/foobar154-lib"
+    },
+    {
+      "path": "./libs/foobar155-lib"
+    },
+    {
+      "path": "./libs/foobar156-lib"
+    },
+    {
+      "path": "./libs/foobar157-lib"
+    },
+    {
+      "path": "./libs/foobar158-lib"
+    },
+    {
+      "path": "./libs/foobar159-lib"
+    },
+    {
+      "path": "./libs/foobar160-lib"
+    },
+    {
+      "path": "./libs/foobar161-lib"
+    },
+    {
+      "path": "./libs/foobar162-lib"
+    },
+    {
+      "path": "./libs/foobar163-lib"
+    },
+    {
+      "path": "./libs/foobar164-lib"
+    },
+    {
+      "path": "./libs/foobar165-lib"
+    },
+    {
+      "path": "./libs/foobar166-lib"
+    },
+    {
+      "path": "./libs/foobar167-lib"
+    },
+    {
+      "path": "./libs/foobar168-lib"
+    },
+    {
+      "path": "./libs/foobar169-lib"
+    },
+    {
+      "path": "./libs/foobar170-lib"
+    },
+    {
+      "path": "./libs/foobar171-lib"
+    },
+    {
+      "path": "./libs/foobar172-lib"
+    },
+    {
+      "path": "./libs/foobar173-lib"
+    },
+    {
+      "path": "./libs/foobar174-lib"
+    },
+    {
+      "path": "./libs/foobar175-lib"
+    },
+    {
+      "path": "./libs/foobar176-lib"
+    },
+    {
+      "path": "./libs/foobar177-lib"
+    },
+    {
+      "path": "./libs/foobar178-lib"
+    },
+    {
+      "path": "./libs/foobar179-lib"
+    },
+    {
+      "path": "./libs/foobar180-lib"
+    },
+    {
+      "path": "./libs/foobar181-lib"
+    },
+    {
+      "path": "./libs/foobar182-lib"
+    },
+    {
+      "path": "./libs/foobar183-lib"
+    },
+    {
+      "path": "./libs/foobar184-lib"
+    },
+    {
+      "path": "./libs/foobar185-lib"
+    },
+    {
+      "path": "./libs/foobar186-lib"
+    },
+    {
+      "path": "./libs/foobar187-lib"
+    },
+    {
+      "path": "./libs/foobar188-lib"
+    },
+    {
+      "path": "./libs/foobar189-lib"
+    },
+    {
+      "path": "./libs/foobar190-lib"
+    },
+    {
+      "path": "./libs/foobar191-lib"
+    },
+    {
+      "path": "./libs/foobar192-lib"
+    },
+    {
+      "path": "./libs/foobar193-lib"
+    },
+    {
+      "path": "./libs/foobar194-lib"
+    },
+    {
+      "path": "./libs/foobar195-lib"
+    },
+    {
+      "path": "./libs/foobar196-lib"
+    },
+    {
+      "path": "./libs/foobar197-lib"
+    },
+    {
+      "path": "./libs/foobar198-lib"
+    },
+    {
+      "path": "./libs/foobar199-lib"
+    },
+    {
+      "path": "./libs/foobar200-lib"
+    },
+    {
+      "path": "./apps/foobar-e2e"
+    },
+    {
+      "path": "./tools/plugin"
+    },
+    {
+      "path": "./apps/foobar"
+    },
+    {
+      "path": "./libs/subfeature1-lib"
+    },
+    {
+      "path": "./libs/subfeature2-lib"
+    },
+    {
+      "path": "./libs/subfeature3-lib"
+    },
+    {
+      "path": "./libs/subfeature4-lib"
+    },
+    {
+      "path": "./libs/subfeature5-lib"
+    },
+    {
+      "path": "./libs/subfeature6-lib"
+    },
+    {
+      "path": "./libs/subfeature7-lib"
+    },
+    {
+      "path": "./libs/subfeature8-lib"
+    },
+    {
+      "path": "./libs/subfeature9-lib"
+    },
+    {
+      "path": "./libs/subfeature10-lib"
+    },
+    {
+      "path": "./libs/subfeature11-lib"
+    },
+    {
+      "path": "./libs/subfeature12-lib"
+    },
+    {
+      "path": "./libs/subfeature13-lib"
+    },
+    {
+      "path": "./libs/subfeature14-lib"
+    },
+    {
+      "path": "./libs/subfeature15-lib"
+    },
+    {
+      "path": "./libs/subfeature16-lib"
+    },
+    {
+      "path": "./libs/subfeature17-lib"
+    },
+    {
+      "path": "./libs/subfeature18-lib"
+    },
+    {
+      "path": "./libs/subfeature19-lib"
+    },
+    {
+      "path": "./libs/subfeature20-lib"
+    },
+    {
+      "path": "./libs/subfeature21-lib"
+    },
+    {
+      "path": "./libs/subfeature22-lib"
+    },
+    {
+      "path": "./libs/subfeature23-lib"
+    },
+    {
+      "path": "./libs/subfeature24-lib"
+    },
+    {
+      "path": "./libs/subfeature25-lib"
+    },
+    {
+      "path": "./libs/subfeature26-lib"
+    },
+    {
+      "path": "./libs/subfeature27-lib"
+    },
+    {
+      "path": "./libs/subfeature28-lib"
+    },
+    {
+      "path": "./libs/subfeature29-lib"
+    },
+    {
+      "path": "./libs/subfeature30-lib"
+    },
+    {
+      "path": "./libs/subfeature31-lib"
+    },
+    {
+      "path": "./libs/subfeature32-lib"
+    },
+    {
+      "path": "./libs/subfeature33-lib"
+    },
+    {
+      "path": "./libs/subfeature34-lib"
+    },
+    {
+      "path": "./libs/subfeature35-lib"
+    },
+    {
+      "path": "./libs/subfeature36-lib"
+    },
+    {
+      "path": "./libs/subfeature37-lib"
+    },
+    {
+      "path": "./libs/subfeature38-lib"
+    },
+    {
+      "path": "./libs/subfeature39-lib"
+    },
+    {
+      "path": "./libs/subfeature40-lib"
+    },
+    {
+      "path": "./libs/subfeature41-lib"
+    },
+    {
+      "path": "./libs/subfeature42-lib"
+    },
+    {
+      "path": "./libs/subfeature43-lib"
+    },
+    {
+      "path": "./libs/subfeature44-lib"
+    },
+    {
+      "path": "./libs/subfeature45-lib"
+    },
+    {
+      "path": "./libs/subfeature46-lib"
+    },
+    {
+      "path": "./libs/subfeature47-lib"
+    },
+    {
+      "path": "./libs/subfeature48-lib"
+    },
+    {
+      "path": "./libs/subfeature49-lib"
+    },
+    {
+      "path": "./libs/subfeature50-lib"
+    },
+    {
+      "path": "./libs/subfeature51-lib"
+    },
+    {
+      "path": "./libs/subfeature52-lib"
+    },
+    {
+      "path": "./libs/subfeature53-lib"
+    },
+    {
+      "path": "./libs/subfeature54-lib"
+    },
+    {
+      "path": "./libs/subfeature55-lib"
+    },
+    {
+      "path": "./libs/subfeature56-lib"
+    },
+    {
+      "path": "./libs/subfeature57-lib"
+    },
+    {
+      "path": "./libs/subfeature58-lib"
+    },
+    {
+      "path": "./libs/subfeature59-lib"
+    },
+    {
+      "path": "./libs/subfeature60-lib"
+    },
+    {
+      "path": "./libs/subfeature61-lib"
+    },
+    {
+      "path": "./libs/subfeature62-lib"
+    },
+    {
+      "path": "./libs/subfeature63-lib"
+    },
+    {
+      "path": "./libs/subfeature64-lib"
+    },
+    {
+      "path": "./libs/subfeature65-lib"
+    },
+    {
+      "path": "./libs/subfeature66-lib"
+    },
+    {
+      "path": "./libs/subfeature67-lib"
+    },
+    {
+      "path": "./libs/subfeature68-lib"
+    },
+    {
+      "path": "./libs/subfeature69-lib"
+    },
+    {
+      "path": "./libs/subfeature70-lib"
+    },
+    {
+      "path": "./libs/subfeature71-lib"
+    },
+    {
+      "path": "./libs/subfeature72-lib"
+    },
+    {
+      "path": "./libs/subfeature73-lib"
+    },
+    {
+      "path": "./libs/subfeature74-lib"
+    },
+    {
+      "path": "./libs/subfeature75-lib"
+    },
+    {
+      "path": "./libs/subfeature76-lib"
+    },
+    {
+      "path": "./libs/subfeature77-lib"
+    },
+    {
+      "path": "./libs/subfeature78-lib"
+    },
+    {
+      "path": "./libs/subfeature79-lib"
+    },
+    {
+      "path": "./libs/subfeature80-lib"
+    },
+    {
+      "path": "./libs/subfeature81-lib"
+    },
+    {
+      "path": "./libs/subfeature82-lib"
+    },
+    {
+      "path": "./libs/subfeature83-lib"
+    },
+    {
+      "path": "./libs/subfeature84-lib"
+    },
+    {
+      "path": "./libs/subfeature85-lib"
+    },
+    {
+      "path": "./libs/subfeature86-lib"
+    },
+    {
+      "path": "./libs/subfeature87-lib"
+    },
+    {
+      "path": "./libs/subfeature88-lib"
+    },
+    {
+      "path": "./libs/subfeature89-lib"
+    },
+    {
+      "path": "./libs/subfeature90-lib"
+    },
+    {
+      "path": "./libs/subfeature91-lib"
+    },
+    {
+      "path": "./libs/subfeature92-lib"
+    },
+    {
+      "path": "./libs/subfeature93-lib"
+    },
+    {
+      "path": "./libs/subfeature94-lib"
+    },
+    {
+      "path": "./libs/subfeature95-lib"
+    },
+    {
+      "path": "./libs/subfeature96-lib"
+    },
+    {
+      "path": "./libs/subfeature97-lib"
+    },
+    {
+      "path": "./libs/subfeature98-lib"
+    },
+    {
+      "path": "./libs/subfeature99-lib"
+    },
+    {
+      "path": "./libs/subfeature100-lib"
+    },
+    {
+      "path": "./libs/subfeature101-lib"
+    },
+    {
+      "path": "./libs/subfeature102-lib"
+    },
+    {
+      "path": "./libs/subfeature103-lib"
+    },
+    {
+      "path": "./libs/subfeature104-lib"
+    },
+    {
+      "path": "./libs/subfeature105-lib"
+    },
+    {
+      "path": "./libs/subfeature106-lib"
+    },
+    {
+      "path": "./libs/subfeature107-lib"
+    },
+    {
+      "path": "./libs/subfeature108-lib"
+    },
+    {
+      "path": "./libs/subfeature109-lib"
+    },
+    {
+      "path": "./libs/subfeature110-lib"
+    },
+    {
+      "path": "./libs/subfeature111-lib"
+    },
+    {
+      "path": "./libs/subfeature112-lib"
+    },
+    {
+      "path": "./libs/subfeature113-lib"
+    },
+    {
+      "path": "./libs/subfeature114-lib"
+    },
+    {
+      "path": "./libs/subfeature115-lib"
+    },
+    {
+      "path": "./libs/subfeature116-lib"
+    },
+    {
+      "path": "./libs/subfeature117-lib"
+    },
+    {
+      "path": "./libs/subfeature118-lib"
+    },
+    {
+      "path": "./libs/subfeature119-lib"
+    },
+    {
+      "path": "./libs/subfeature120-lib"
+    },
+    {
+      "path": "./libs/subfeature121-lib"
+    },
+    {
+      "path": "./libs/subfeature122-lib"
+    },
+    {
+      "path": "./libs/subfeature123-lib"
+    },
+    {
+      "path": "./libs/subfeature124-lib"
+    },
+    {
+      "path": "./libs/subfeature125-lib"
+    },
+    {
+      "path": "./libs/subfeature126-lib"
+    },
+    {
+      "path": "./libs/subfeature127-lib"
+    },
+    {
+      "path": "./libs/subfeature128-lib"
+    },
+    {
+      "path": "./libs/subfeature129-lib"
+    },
+    {
+      "path": "./libs/subfeature130-lib"
+    },
+    {
+      "path": "./libs/subfeature131-lib"
+    },
+    {
+      "path": "./libs/subfeature132-lib"
+    },
+    {
+      "path": "./libs/subfeature133-lib"
+    },
+    {
+      "path": "./libs/subfeature134-lib"
+    },
+    {
+      "path": "./libs/subfeature135-lib"
+    },
+    {
+      "path": "./libs/subfeature136-lib"
+    },
+    {
+      "path": "./libs/subfeature137-lib"
+    },
+    {
+      "path": "./libs/subfeature138-lib"
+    },
+    {
+      "path": "./libs/subfeature139-lib"
+    },
+    {
+      "path": "./libs/subfeature140-lib"
+    },
+    {
+      "path": "./libs/subfeature141-lib"
+    },
+    {
+      "path": "./libs/subfeature142-lib"
+    },
+    {
+      "path": "./libs/subfeature143-lib"
+    },
+    {
+      "path": "./libs/subfeature144-lib"
+    },
+    {
+      "path": "./libs/subfeature145-lib"
+    },
+    {
+      "path": "./libs/subfeature146-lib"
+    },
+    {
+      "path": "./libs/subfeature147-lib"
+    },
+    {
+      "path": "./libs/subfeature148-lib"
+    },
+    {
+      "path": "./libs/subfeature149-lib"
+    },
+    {
+      "path": "./libs/subfeature150-lib"
+    },
+    {
+      "path": "./libs/subfeature151-lib"
+    },
+    {
+      "path": "./libs/subfeature152-lib"
+    },
+    {
+      "path": "./libs/subfeature153-lib"
+    },
+    {
+      "path": "./libs/subfeature154-lib"
+    },
+    {
+      "path": "./libs/subfeature155-lib"
+    },
+    {
+      "path": "./libs/subfeature156-lib"
+    },
+    {
+      "path": "./libs/subfeature157-lib"
+    },
+    {
+      "path": "./libs/subfeature158-lib"
+    },
+    {
+      "path": "./libs/subfeature159-lib"
+    },
+    {
+      "path": "./libs/subfeature160-lib"
+    },
+    {
+      "path": "./libs/subfeature161-lib"
+    },
+    {
+      "path": "./libs/subfeature162-lib"
+    },
+    {
+      "path": "./libs/subfeature163-lib"
+    },
+    {
+      "path": "./libs/subfeature164-lib"
+    },
+    {
+      "path": "./libs/subfeature165-lib"
+    },
+    {
+      "path": "./libs/subfeature166-lib"
+    },
+    {
+      "path": "./libs/subfeature167-lib"
+    },
+    {
+      "path": "./libs/subfeature168-lib"
+    },
+    {
+      "path": "./libs/subfeature169-lib"
+    },
+    {
+      "path": "./libs/subfeature170-lib"
+    },
+    {
+      "path": "./libs/subfeature171-lib"
+    },
+    {
+      "path": "./libs/subfeature172-lib"
+    },
+    {
+      "path": "./libs/subfeature173-lib"
+    },
+    {
+      "path": "./libs/subfeature174-lib"
+    },
+    {
+      "path": "./libs/subfeature175-lib"
+    },
+    {
+      "path": "./libs/subfeature176-lib"
+    },
+    {
+      "path": "./libs/subfeature177-lib"
+    },
+    {
+      "path": "./libs/subfeature178-lib"
+    },
+    {
+      "path": "./libs/subfeature179-lib"
+    },
+    {
+      "path": "./libs/subfeature180-lib"
+    },
+    {
+      "path": "./libs/subfeature181-lib"
+    },
+    {
+      "path": "./libs/subfeature182-lib"
+    },
+    {
+      "path": "./libs/subfeature183-lib"
+    },
+    {
+      "path": "./libs/subfeature184-lib"
+    },
+    {
+      "path": "./libs/subfeature185-lib"
+    },
+    {
+      "path": "./libs/subfeature186-lib"
+    },
+    {
+      "path": "./libs/subfeature187-lib"
+    },
+    {
+      "path": "./libs/subfeature188-lib"
+    },
+    {
+      "path": "./libs/subfeature189-lib"
+    },
+    {
+      "path": "./libs/subfeature190-lib"
+    },
+    {
+      "path": "./libs/subfeature191-lib"
+    },
+    {
+      "path": "./libs/subfeature192-lib"
+    },
+    {
+      "path": "./libs/subfeature193-lib"
+    },
+    {
+      "path": "./libs/subfeature194-lib"
+    },
+    {
+      "path": "./libs/subfeature195-lib"
+    },
+    {
+      "path": "./libs/subfeature196-lib"
+    },
+    {
+      "path": "./libs/subfeature197-lib"
+    },
+    {
+      "path": "./libs/subfeature198-lib"
+    },
+    {
+      "path": "./libs/subfeature199-lib"
+    },
+    {
+      "path": "./libs/subfeature200-lib"
+    }
+  ]
 }

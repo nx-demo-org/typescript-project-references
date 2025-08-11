@@ -1,0 +1,40 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "../subfeature69-lib"
+    },
+    {
+      "path": "../subfeature68-lib"
+    },
+    {
+      "path": "../subfeature67-lib"
+    },
+    {
+      "path": "../subfeature66-lib"
+    },
+    {
+      "path": "../subfeature65-lib"
+    },
+    {
+      "path": "../subfeature64-lib"
+    },
+    {
+      "path": "../subfeature63-lib"
+    },
+    {
+      "path": "../subfeature62-lib"
+    },
+    {
+      "path": "../subfeature61-lib"
+    },
+    {
+      "path": "./tsconfig.lib.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ]
+}

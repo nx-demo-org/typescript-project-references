@@ -1,0 +1,9 @@
+{
+  "name": "subfeature174-lib",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/subfeature174-lib/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project subfeature174-lib --web",
+  "targets": {}
+}

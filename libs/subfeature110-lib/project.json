@@ -1,0 +1,9 @@
+{
+  "name": "subfeature110-lib",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/subfeature110-lib/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project subfeature110-lib --web",
+  "targets": {}
+}

@@ -1,0 +1,40 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "../foobar39-lib"
+    },
+    {
+      "path": "../foobar38-lib"
+    },
+    {
+      "path": "../foobar37-lib"
+    },
+    {
+      "path": "../foobar36-lib"
+    },
+    {
+      "path": "../foobar35-lib"
+    },
+    {
+      "path": "../foobar34-lib"
+    },
+    {
+      "path": "../foobar33-lib"
+    },
+    {
+      "path": "../foobar32-lib"
+    },
+    {
+      "path": "../foobar31-lib"
+    },
+    {
+      "path": "./tsconfig.lib.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ]
+}

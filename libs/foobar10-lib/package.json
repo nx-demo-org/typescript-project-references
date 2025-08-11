@@ -1,0 +1,30 @@
+{
+  "name": "@reference-org/foobar10-lib",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "development": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "tslib": "^2.3.0",
+    "@reference-org/foobar11-lib": "workspace:*",
+    "@reference-org/foobar12-lib": "workspace:*",
+    "@reference-org/foobar13-lib": "workspace:*",
+    "@reference-org/foobar14-lib": "workspace:*",
+    "@reference-org/foobar15-lib": "workspace:*",
+    "@reference-org/foobar16-lib": "workspace:*",
+    "@reference-org/foobar17-lib": "workspace:*",
+    "@reference-org/foobar18-lib": "workspace:*",
+    "@reference-org/foobar19-lib": "workspace:*"
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": "src",
+    "outDir": "dist",
+    "tsBuildInfoFile": "dist/tsconfig.lib.tsbuildinfo",
+    "emitDeclarationOnly": false,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "types": ["node"]
+  },
+  "include": ["src/**/*.ts"],
+  "references": [
+    {
+      "path": "../foobar50-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar49-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar48-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar47-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar46-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar45-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar44-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar43-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar42-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar41-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar40-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar39-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar38-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar37-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar36-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar35-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar34-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar33-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar32-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar31-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar30-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar29-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar28-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar27-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar26-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar25-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar24-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar23-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar22-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar21-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar20-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar19-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar18-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar17-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar16-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar15-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar14-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar13-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar12-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar11-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar10-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar9-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar8-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar7-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar6-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar5-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar4-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar3-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar2-lib/tsconfig.lib.json"
+    }
+  ],
+  "exclude": ["jest.config.ts", "src/**/*.spec.ts", "src/**/*.test.ts"]
+}

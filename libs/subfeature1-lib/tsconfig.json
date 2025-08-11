@@ -1,0 +1,160 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "files": [],
+  "include": [],
+  "references": [
+    {
+      "path": "../subfeature50-lib"
+    },
+    {
+      "path": "../subfeature49-lib"
+    },
+    {
+      "path": "../subfeature48-lib"
+    },
+    {
+      "path": "../subfeature47-lib"
+    },
+    {
+      "path": "../subfeature46-lib"
+    },
+    {
+      "path": "../subfeature45-lib"
+    },
+    {
+      "path": "../subfeature44-lib"
+    },
+    {
+      "path": "../subfeature43-lib"
+    },
+    {
+      "path": "../subfeature42-lib"
+    },
+    {
+      "path": "../subfeature41-lib"
+    },
+    {
+      "path": "../subfeature40-lib"
+    },
+    {
+      "path": "../subfeature39-lib"
+    },
+    {
+      "path": "../subfeature38-lib"
+    },
+    {
+      "path": "../subfeature37-lib"
+    },
+    {
+      "path": "../subfeature36-lib"
+    },
+    {
+      "path": "../subfeature35-lib"
+    },
+    {
+      "path": "../subfeature34-lib"
+    },
+    {
+      "path": "../subfeature33-lib"
+    },
+    {
+      "path": "../subfeature32-lib"
+    },
+    {
+      "path": "../subfeature31-lib"
+    },
+    {
+      "path": "../subfeature30-lib"
+    },
+    {
+      "path": "../subfeature29-lib"
+    },
+    {
+      "path": "../subfeature28-lib"
+    },
+    {
+      "path": "../subfeature27-lib"
+    },
+    {
+      "path": "../subfeature26-lib"
+    },
+    {
+      "path": "../subfeature25-lib"
+    },
+    {
+      "path": "../subfeature24-lib"
+    },
+    {
+      "path": "../subfeature23-lib"
+    },
+    {
+      "path": "../subfeature22-lib"
+    },
+    {
+      "path": "../subfeature21-lib"
+    },
+    {
+      "path": "../subfeature20-lib"
+    },
+    {
+      "path": "../subfeature19-lib"
+    },
+    {
+      "path": "../subfeature18-lib"
+    },
+    {
+      "path": "../subfeature17-lib"
+    },
+    {
+      "path": "../subfeature16-lib"
+    },
+    {
+      "path": "../subfeature15-lib"
+    },
+    {
+      "path": "../subfeature14-lib"
+    },
+    {
+      "path": "../subfeature13-lib"
+    },
+    {
+      "path": "../subfeature12-lib"
+    },
+    {
+      "path": "../subfeature11-lib"
+    },
+    {
+      "path": "../subfeature10-lib"
+    },
+    {
+      "path": "../subfeature9-lib"
+    },
+    {
+      "path": "../subfeature8-lib"
+    },
+    {
+      "path": "../subfeature7-lib"
+    },
+    {
+      "path": "../subfeature6-lib"
+    },
+    {
+      "path": "../subfeature5-lib"
+    },
+    {
+      "path": "../subfeature4-lib"
+    },
+    {
+      "path": "../subfeature3-lib"
+    },
+    {
+      "path": "../subfeature2-lib"
+    },
+    {
+      "path": "./tsconfig.lib.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
+    }
+  ]
+}

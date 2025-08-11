@@ -1,0 +1,164 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": "src",
+    "outDir": "dist",
+    "tsBuildInfoFile": "dist/tsconfig.lib.tsbuildinfo",
+    "emitDeclarationOnly": false,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "types": ["node"]
+  },
+  "include": ["src/**/*.ts"],
+  "references": [
+    {
+      "path": "../subfeature50-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature49-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature48-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature47-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature46-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature45-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature44-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature43-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature42-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature41-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature40-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature39-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature38-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature37-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature36-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature35-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature34-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature33-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature32-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature31-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature30-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature29-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature28-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature27-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature26-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature25-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature24-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature23-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature22-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature21-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature20-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature19-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature18-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature17-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature16-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature15-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature14-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature13-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature12-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature11-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature10-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature9-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature8-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature7-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature6-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature5-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature4-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature3-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature2-lib/tsconfig.lib.json"
+    }
+  ],
+  "exclude": ["jest.config.ts", "src/**/*.spec.ts", "src/**/*.test.ts"]
+}
