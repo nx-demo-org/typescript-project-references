@@ -4,33 +4,6 @@
   "include": [],
   "references": [
     {
-      "path": "../subfeature49-lib"
-    },
-    {
-      "path": "../subfeature48-lib"
-    },
-    {
-      "path": "../subfeature47-lib"
-    },
-    {
-      "path": "../subfeature46-lib"
-    },
-    {
-      "path": "../subfeature45-lib"
-    },
-    {
-      "path": "../subfeature44-lib"
-    },
-    {
-      "path": "../subfeature43-lib"
-    },
-    {
-      "path": "../subfeature42-lib"
-    },
-    {
-      "path": "../subfeature41-lib"
-    },
-    {
       "path": "./tsconfig.lib.json"
     },
     {

@@ -4,9 +4,6 @@
   "include": [],
   "references": [
     {
-      "path": "../subfeature170-lib"
-    },
-    {
       "path": "./tsconfig.lib.json"
     },
     {
