@@ -17,7 +17,6 @@
     "strict": true,
     "target": "es2022",
     "extendedDiagnostics": true,
-    "customConditions": ["development"]
+    "customConditions": ["@reference-org/source"]
   }
 }
-
