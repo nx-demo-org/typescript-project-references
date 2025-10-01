@@ -1,0 +1,50 @@
+name: Pull Request Validation
+
+on:
+  pull_request:
+    branches:
+      - main
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  pull_request_validation:
+    name: Pull Request Validation
+    environment: pull-requests
+    env:
+      NX_CLOUD_ACCESS_TOKEN: ${{ secrets.NX_CLOUD_ACCESS_TOKEN }}
+      NX_BATCH_MODE: true
+      NX_VERBOSE_LOGGING: true
+      NX_PERF_LOGGING: true
+      NX_CLOUD_DEBUG_URLS: true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          filter: tree:0
+          fetch-depth: 0
+      
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+        with:
+          version: 10.11.1
+          run_install: false
+
+      # Cache node_modules
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'pnpm'
+
+      - name: Start Nx Cloud Run
+        run: npx nx start-ci-run --distribute-on=".nx/workflows/assignment-rules.yaml" --stop-agents-after=lint,test,typecheck
+      
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # Prepend any command with "nx-cloud record --" to record its logs to Nx Cloud
+      # - run: npx nx-cloud record -- echo Hello World
+      - run: npx nx run-many -t test lint typecheck

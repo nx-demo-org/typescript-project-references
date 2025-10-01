@@ -4,7 +4,13 @@
   "include": [],
   "references": [
     {
+      "path": "../foobar7-lib"
+    },
+    {
       "path": "./tsconfig.lib.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
     }
   ]
 }

@@ -1,0 +1,44 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": "src",
+    "outDir": "dist",
+    "tsBuildInfoFile": "dist/tsconfig.lib.tsbuildinfo",
+    "emitDeclarationOnly": false,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "types": ["node"]
+  },
+  "include": ["src/**/*.ts"],
+  "references": [
+    {
+      "path": "../subfeature69-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature68-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature67-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature66-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature65-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature64-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature63-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature62-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../subfeature61-lib/tsconfig.lib.json"
+    }
+  ],
+  "exclude": ["jest.config.ts", "src/**/*.spec.ts", "src/**/*.test.ts"]
+}

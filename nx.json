@@ -1,5 +1,6 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "npmScope": "reference-org",
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "production": [
@@ -68,6 +69,14 @@
   "targetDefaults": {
     "test": {
       "dependsOn": ["^build"]
+    },
+    "@nx/js:tsc": {
+      "cache": true,
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"]
+    },
+    "typecheck": {
+      "command": "tsc --build --emitDeclarationOnly --verbose"
     }
   },
   "generators": {
@@ -77,5 +86,7 @@
         "linter": "eslint"
       }
     }
-  }
+  },
+  "bust": 9,
+  "nxCloudId": "689928e7e7d4ba1786546dd8"
 }

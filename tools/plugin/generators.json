@@ -1,0 +1,9 @@
+{
+  "generators": {
+    "complex-graph-gen": {
+      "factory": "./dist/generators/complex-graph-gen/complex-graph-gen",
+      "schema": "./dist/generators/complex-graph-gen/schema.json",
+      "description": "complex-graph-gen generator"
+    }
+  }
+}

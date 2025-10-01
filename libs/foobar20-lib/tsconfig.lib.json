@@ -1,0 +1,44 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "rootDir": "src",
+    "outDir": "dist",
+    "tsBuildInfoFile": "dist/tsconfig.lib.tsbuildinfo",
+    "emitDeclarationOnly": false,
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "types": ["node"]
+  },
+  "include": ["src/**/*.ts"],
+  "references": [
+    {
+      "path": "../foobar29-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar28-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar27-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar26-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar25-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar24-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar23-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar22-lib/tsconfig.lib.json"
+    },
+    {
+      "path": "../foobar21-lib/tsconfig.lib.json"
+    }
+  ],
+  "exclude": ["jest.config.ts", "src/**/*.spec.ts", "src/**/*.test.ts"]
+}

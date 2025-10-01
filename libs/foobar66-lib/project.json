@@ -1,0 +1,9 @@
+{
+  "name": "foobar66-lib",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/foobar66-lib/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project foobar66-lib --web",
+  "targets": {}
+}

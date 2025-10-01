@@ -1,0 +1,30 @@
+{
+  "name": "@reference-org/subfeature110-lib",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "@reference-org/source": "./src/index.ts",
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "dependencies": {
+    "tslib": "^2.3.0",
+    "@reference-org/subfeature111-lib": "workspace:*",
+    "@reference-org/subfeature112-lib": "workspace:*",
+    "@reference-org/subfeature113-lib": "workspace:*",
+    "@reference-org/subfeature114-lib": "workspace:*",
+    "@reference-org/subfeature115-lib": "workspace:*",
+    "@reference-org/subfeature116-lib": "workspace:*",
+    "@reference-org/subfeature117-lib": "workspace:*",
+    "@reference-org/subfeature118-lib": "workspace:*",
+    "@reference-org/subfeature119-lib": "workspace:*"
+  }
+}

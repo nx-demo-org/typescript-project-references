@@ -4,7 +4,157 @@
   "include": [],
   "references": [
     {
+      "path": "../foobar50-lib"
+    },
+    {
+      "path": "../foobar49-lib"
+    },
+    {
+      "path": "../foobar48-lib"
+    },
+    {
+      "path": "../foobar47-lib"
+    },
+    {
+      "path": "../foobar46-lib"
+    },
+    {
+      "path": "../foobar45-lib"
+    },
+    {
+      "path": "../foobar44-lib"
+    },
+    {
+      "path": "../foobar43-lib"
+    },
+    {
+      "path": "../foobar42-lib"
+    },
+    {
+      "path": "../foobar41-lib"
+    },
+    {
+      "path": "../foobar40-lib"
+    },
+    {
+      "path": "../foobar39-lib"
+    },
+    {
+      "path": "../foobar38-lib"
+    },
+    {
+      "path": "../foobar37-lib"
+    },
+    {
+      "path": "../foobar36-lib"
+    },
+    {
+      "path": "../foobar35-lib"
+    },
+    {
+      "path": "../foobar34-lib"
+    },
+    {
+      "path": "../foobar33-lib"
+    },
+    {
+      "path": "../foobar32-lib"
+    },
+    {
+      "path": "../foobar31-lib"
+    },
+    {
+      "path": "../foobar30-lib"
+    },
+    {
+      "path": "../foobar29-lib"
+    },
+    {
+      "path": "../foobar28-lib"
+    },
+    {
+      "path": "../foobar27-lib"
+    },
+    {
+      "path": "../foobar26-lib"
+    },
+    {
+      "path": "../foobar25-lib"
+    },
+    {
+      "path": "../foobar24-lib"
+    },
+    {
+      "path": "../foobar23-lib"
+    },
+    {
+      "path": "../foobar22-lib"
+    },
+    {
+      "path": "../foobar21-lib"
+    },
+    {
+      "path": "../foobar20-lib"
+    },
+    {
+      "path": "../foobar19-lib"
+    },
+    {
+      "path": "../foobar18-lib"
+    },
+    {
+      "path": "../foobar17-lib"
+    },
+    {
+      "path": "../foobar16-lib"
+    },
+    {
+      "path": "../foobar15-lib"
+    },
+    {
+      "path": "../foobar14-lib"
+    },
+    {
+      "path": "../foobar13-lib"
+    },
+    {
+      "path": "../foobar12-lib"
+    },
+    {
+      "path": "../foobar11-lib"
+    },
+    {
+      "path": "../foobar10-lib"
+    },
+    {
+      "path": "../foobar9-lib"
+    },
+    {
+      "path": "../foobar8-lib"
+    },
+    {
+      "path": "../foobar7-lib"
+    },
+    {
+      "path": "../foobar6-lib"
+    },
+    {
+      "path": "../foobar5-lib"
+    },
+    {
+      "path": "../foobar4-lib"
+    },
+    {
+      "path": "../foobar3-lib"
+    },
+    {
+      "path": "../foobar2-lib"
+    },
+    {
       "path": "./tsconfig.lib.json"
+    },
+    {
+      "path": "./tsconfig.spec.json"
     }
   ]
 }

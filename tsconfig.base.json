@@ -16,7 +16,7 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["development"]
+    "extendedDiagnostics": true,
+    "customConditions": ["@reference-org/source"]
   }
 }
-

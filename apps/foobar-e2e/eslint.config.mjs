@@ -8,4 +8,10 @@ export default [
     // Override or add rules here
     rules: {},
   },
+  {
+    files: ['**/support/commands.ts'],
+    rules: {
+      '@typescript-eslint/no-namespace': 'off',
+    },
+  },
 ];
