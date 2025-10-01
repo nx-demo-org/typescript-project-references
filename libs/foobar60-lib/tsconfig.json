@@ -4,33 +4,6 @@
   "include": [],
   "references": [
     {
-      "path": "../foobar69-lib"
-    },
-    {
-      "path": "../foobar68-lib"
-    },
-    {
-      "path": "../foobar67-lib"
-    },
-    {
-      "path": "../foobar66-lib"
-    },
-    {
-      "path": "../foobar65-lib"
-    },
-    {
-      "path": "../foobar64-lib"
-    },
-    {
-      "path": "../foobar63-lib"
-    },
-    {
-      "path": "../foobar62-lib"
-    },
-    {
-      "path": "../foobar61-lib"
-    },
-    {
       "path": "./tsconfig.lib.json"
     },
     {
