@@ -8,7 +8,7 @@ assignment-rules:
       - typecheck
     run-on:
       - agent: linux-large-js
-        parallelism: 5
+        parallelism: 10
 
   - targets:
       - build
