@@ -3,13 +3,15 @@ distribute-on:
 
 assignment-rules:
   - targets:
+      - ci-typecheck
       - build
       - typecheck
     run-on:
       - agent: linux-large-js
-        parallelism: 5
+        parallelism: 10
 
   - targets:
+      - build
       - '*'
     run-on:
       - agent: linux-medium-js

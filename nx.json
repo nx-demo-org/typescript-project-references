@@ -76,6 +76,7 @@
       "inputs": ["production", "^production"]
     },
     "typecheck": {
+      "dependsOn": ["^typecheck"],
       "command": "tsc --build --emitDeclarationOnly --verbose"
     }
   },
@@ -87,6 +88,6 @@
       }
     }
   },
-  "bust": 9,
+  "bust": 11,
   "nxCloudId": "689928e7e7d4ba1786546dd8"
 }

@@ -4,9 +4,6 @@
   "include": [],
   "references": [
     {
-      "path": "../foobar128-lib"
-    },
-    {
       "path": "./tsconfig.lib.json"
     },
     {
