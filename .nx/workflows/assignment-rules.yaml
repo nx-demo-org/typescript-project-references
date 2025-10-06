@@ -3,6 +3,7 @@ distribute-on:
 
 assignment-rules:
   - targets:
+      - ci-typecheck
       - build
       - typecheck
     run-on:
