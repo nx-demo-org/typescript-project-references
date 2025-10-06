@@ -11,6 +11,7 @@ assignment-rules:
         parallelism: 5
 
   - targets:
+      - build
       - '*'
     run-on:
       - agent: linux-medium-js
