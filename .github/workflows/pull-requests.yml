@@ -39,7 +39,7 @@ jobs:
           cache: 'pnpm'
 
       - name: Start Nx Cloud Run
-        run: npx nx start-ci-run --distribute-on=".nx/workflows/assignment-rules.yaml" --stop-agents-after=lint,test,ci-typecheck
+        run: npx nx start-ci-run --distribute-on=".nx/workflows/assignment-rules.yaml" --stop-agents-after=lint,test,typecheck
       
 
       - name: Install dependencies
@@ -47,4 +47,5 @@ jobs:
 
       # Prepend any command with "nx-cloud record --" to record its logs to Nx Cloud
       # - run: npx nx-cloud record -- echo Hello World
-      - run: npx nx run-many -t test lint ci-typecheck
+      - run: npx nx run-many -t typecheck
+      - run: npx nx run-many -t test lint
