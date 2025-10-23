@@ -1,6 +1,9 @@
 {
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
   "npmScope": "reference-org",
+  "tui": {
+    "enabled": false
+  },
   "namedInputs": {
     "default": ["{projectRoot}/**/*", "sharedGlobals"],
     "production": [
@@ -76,6 +79,7 @@
       "inputs": ["production", "^production"]
     },
     "typecheck": {
+      "dependsOn": ["^build"],
       "command": "tsc --build --emitDeclarationOnly --verbose"
     }
   },
@@ -87,6 +91,7 @@
       }
     }
   },
-  "bust": 9,
-  "nxCloudId": "689928e7e7d4ba1786546dd8"
+  "bust": 24,
+  "nxCloudId": "689928e7e7d4ba1786546dd8",
+  "parallel": 10
 }
