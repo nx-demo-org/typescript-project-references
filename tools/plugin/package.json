@@ -8,7 +8,7 @@
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "development": "./src/index.ts",
+      "@reference-org/source": "./src/index.ts",
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "default": "./dist/index.js"
@@ -44,7 +44,7 @@
     }
   },
   "dependencies": {
-    "@nx/js":"21.3.11",
+    "@nx/js": "21.3.11",
     "@nx/devkit": "21.3.11",
     "tslib": "^2.3.0"
   },
